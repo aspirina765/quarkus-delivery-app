@@ -1,0 +1,173 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "christoshadjiaslanis",
+      "name": "Christos Hadjiaslanis",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14791384?v=4",
+      "profile": "https://github.com/christoshadjiaslanis",
+      "contributions": [
+        "blog",
+        "business",
+        "code",
+        "content",
+        "design",
+        "doc",
+        "fundingFinding",
+        "ideas",
+        "infra",
+        "maintenance",
+        "platform",
+        "review",
+        "security",
+        "test",
+        "talk"
+      ]
+    },
+    {
+      "login": "NodarD",
+      "name": "Nodar Daneliya",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12720758?v=4",
+      "profile": "https://www.linkedin.com/in/ndaneliya/",
+      "contributions": [
+        "blog",
+        "business",
+        "content",
+        "design",
+        "doc",
+        "fundingFinding",
+        "ideas"
+      ]
+    },
+    {
+      "login": "llogiq",
+      "name": "llogiq",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4200835?v=4",
+      "profile": "https://llogiq.github.io",
+      "contributions": [
+        "business",
+        "code",
+        "content",
+        "ideas",
+        "infra",
+        "maintenance",
+        "mentoring",
+        "review",
+        "security",
+        "test"
+      ]
+    },
+    {
+      "login": "shkurskid",
+      "name": "Dmitri Shkurski",
+      "avatar_url": "https://avatars.githubusercontent.com/u/77615792?v=4",
+      "profile": "https://github.com/shkurskid",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "brokad",
+      "name": "Damien Broka",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13315034?v=4",
+      "profile": "https://github.com/brokad",
+      "contributions": [
+        "blog",
+        "business",
+        "code",
+        "content",
+        "design",
+        "doc",
+        "fundingFinding",
+        "ideas",
+        "infra",
+        "maintenance",
+        "review",
+        "test"
+      ]
+    },
+    {
+      "login": "fretz12",
+      "name": "fretz12",
+      "avatar_url": "https://avatars.githubusercontent.com/u/41805201?v=4",
+      "profile": "https://github.com/fretz12",
+      "contributions": [
+        "ideas",
+        "code",
+        "doc",
+        "test"
+      ]
+    },
+    {
+      "login": "baile320",
+      "name": "Tyler Bailey",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26841355?v=4",
+      "profile": "https://github.com/baile320",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "juniorbassani",
+      "name": "Júnior Bassani",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47573050?v=4",
+      "profile": "https://github.com/juniorbassani",
+      "contributions": [
+        "bug",
+        "code"
+      ]
+    },
+    {
+      "login": "cakebaker",
+      "name": "Daniel Hofstetter",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26196?v=4",
+      "profile": "https://danielhofstetter.com",
+      "contributions": [
+        "bug",
+        "code"
+      ]
+    },
+    {
+      "login": "AlexMikhalev",
+      "name": "Dr Alexander Mikhalev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50685?v=4",
+      "profile": "https://github.com/AlexMikhalev",
+      "contributions": [
+        "maintenance",
+        "doc",
+        "review",
+        "ideas",
+        "code"
+      ]
+    },
+    {
+      "login": "iamwacko",
+      "name": "s e",
+      "avatar_url": "https://avatars.githubusercontent.com/u/101361189?v=4",
+      "profile": "https://github.com/iamwacko",
+      "contributions": [
+        "code",
+        "review",
+        "infra",
+        "platform",
+        "bug",
+        "ideas",
+        "test",
+        "doc",
+        "maintenance"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "synth",
+  "projectOwner": "shuttle-hq",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true,
+  "commitConvention": "angular"
+}

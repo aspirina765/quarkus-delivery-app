@@ -1,0 +1,50 @@
+{
+  "type": "array",
+  "length": {
+    "type": "number",
+    "range": {
+      "low": 0,
+      "high": 2,
+      "step": 1
+    },
+    "subtype": "u64"
+  },
+  "content": {
+    "type": "object",
+    "id": {
+      "type": "number",
+      "id": {},
+      "subtype": "i64"
+    },
+    "latitude": {
+      "type": "one_of",
+      "variants": [
+        {
+          "weight": 1.0,
+          "type": "number",
+          "range": {},
+          "subtype": "f64"
+        },
+        {
+          "weight": 1.0,
+          "type": "null"
+        }
+      ]
+    },
+    "longitude": {
+      "type": "one_of",
+      "variants": [
+        {
+          "weight": 1.0,
+          "type": "number",
+          "range": {},
+          "subtype": "f64"
+        },
+        {
+          "weight": 1.0,
+          "type": "null"
+        }
+      ]
+    }
+  }
+}

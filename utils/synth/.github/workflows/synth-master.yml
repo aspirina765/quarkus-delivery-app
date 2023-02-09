@@ -1,0 +1,32 @@
+name: synth master ci/cd
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+
+  deploy:
+    name: deployments
+    runs-on: ubuntu-latest
+    env:
+      project_id: openquery-synth-dev
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Cloud SDK
+        uses: google-github-actions/setup-gcloud@v0
+        with:
+          project_id: ${{ env.project_id }}
+          service_account_key: ${{ secrets.OPENQUERY_CI_SERVICE_ACCOUNT_KEY }}
+          export_default_credentials: true
+      - name: Build image
+        run: |
+          echo building image...
+          gcloud auth configure-docker
+          docker build -t eu.gcr.io/${project_id}/playground:$GITHUB_SHA -f dist/playground/Dockerfile .
+          docker push eu.gcr.io/${project_id}/playground:$GITHUB_SHA
+      - name: Deploy Playground
+        run: |
+          echo deploying playground...
+          gcloud run services update playground-backend --image=eu.gcr.io/${project_id}/playground:$GITHUB_SHA --region=europe-west2

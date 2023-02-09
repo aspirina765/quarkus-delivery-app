@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  postgres-cadastro:
+    container_name: postgres_cadastro_ifood
+    image: postgres:12.2 #debezium/postgres:12-alpine #postgres:12.2 #debezium/example-postgres
+    environment:
+      POSTGRES_USER: cadastro
+      POSTGRES_PASSWORD: cadastro
+    ports:
+      - "5432:5432"
+
+
